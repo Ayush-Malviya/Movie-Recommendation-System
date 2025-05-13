@@ -58,8 +58,8 @@ def recommend(movie, movies, similarity, api_key):
         return []
 
 # Load Data
-movies = pickle.load(open('/content/movie_list.pkl', 'rb'))
-similarity = pickle.load(open('/content/similarity.pkl', 'rb'))
+movies = pickle.load(open('movie_list.pkl', 'rb'))
+similarity = pickle.load(open('similarity.pkl', 'rb'))
 TMDB_API_KEY = "8265bd1679663a7ea12ac168da84d2e8"
 
 # Streamlit App
